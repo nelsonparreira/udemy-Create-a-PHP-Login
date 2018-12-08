@@ -14,3 +14,8 @@
     if (!defined('__CONFIG__')) {
         die('You do not have a config file');
     }
+
+    // Include DB
+    include_once "classes/DB.php";
+
+    $con = DB::getConnection();

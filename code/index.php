@@ -39,6 +39,7 @@
         <li><a href="register.php">Register</a></li>
     </ul>
         
-        <?php require_once 'inc/footer.php'?>
+    <!-- FOOTER -->    
+    <?php require_once 'inc/footer.php'?>
     </body>
 </html>
